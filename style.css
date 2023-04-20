@@ -1,0 +1,17 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+
+    display: grid;
+}
+
+
+.squares {
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid black;
+}
