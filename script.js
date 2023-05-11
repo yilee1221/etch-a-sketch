@@ -10,3 +10,11 @@ for (let i=0; i < 16; i++) {
         grid.appendChild(square);
     }
 }
+function filled() {
+    this.classList.add('fill');
+}
+const pixels = document.querySelectorAll('.squares');
+pixels.forEach((square) => {
+    square.addEventListener('mouseover', filled);
+});
+
