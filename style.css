@@ -1,12 +1,15 @@
 body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+h1 {
+    text-align: center;
+}
 
 .grid {
-    width: 600px;
-    height: 600px;
+    width: 640px;
+    height: 640px;
     padding: 0;
     margin: 0;
     border: 1px solid black;
@@ -14,7 +17,11 @@ body {
     display: grid;
 }
 
-
+.user-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 .square {
     border: none;
     margin: 0;
