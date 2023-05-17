@@ -7,17 +7,25 @@
         <script src="script.js" defer></script>
     </head>
     <body>
-        <h1>Etch-A-Sketch</h1>
-        <div class="grid"></div>
-        <div class="user-input">
-            <div class="size-container">
-                <input type="range" class="inputSize" value="16" min="2" max="90">
-                <p>Size: <output id="size"></output></p>
+        <header>
+            <h1>Etch-A-Sketch</h1>
+        </header>
+        <div class =content>
+            <div class="grid"></div>
+            <div class="user-input">
+                <div class="size-color">
+                    <div class="size-container">
+                        <p>Size: <output id="size"></output></p>
+                        <input type="range" class="inputSize" value="16" min="2" max="90">
+                    </div>
+                    <input type="color" id="pickColor">
+                </div>
+                <div class="buttons">
+                    <button class="random">Random Color</button>
+                    <button class="eraser">Eraser</button>
+                    <button class="clear">Clear</button>
+                </div>
             </div>
-            <input type="color" id="pickColor">
-            <button class="random">Random Color</button>
-            <button class="eraser">Eraser</button>
-            <button class="clear">Clear</button>
         </div>
     </body>
 </html>
