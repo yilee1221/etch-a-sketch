@@ -92,10 +92,13 @@ inputSize.addEventListener('input',() => {
 //Get input for color
 let color = '#000000'; 
 const colorPicker = document.getElementById('pickColor');
+
 colorPicker.addEventListener('input', () => {
     color = colorPicker.value;
 });
+
 colorPicker.addEventListener('click', () => {
+    color = colorPicker.value;
     erase = false;
     randomColor = false;
     eraserButton.classList.remove('active');
